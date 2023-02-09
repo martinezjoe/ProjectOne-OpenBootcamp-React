@@ -1,8 +1,8 @@
 
 
-export class Contacto {
-    nombre = '';
-    apellido = '';
+export class Contact {
+    name = '';
+    lastname = '';
     email = '';
     connected = false;
 

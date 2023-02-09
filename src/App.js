@@ -1,19 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
-import { ComponentA } from './components/component-a';
+import ContactLisk from './components/contact_lisk';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        
-        <ComponentA></ComponentA>
+      <ContactLisk></ContactLisk>
 
-      </header>
     </div>
   );
 }
 
 export default App;
+

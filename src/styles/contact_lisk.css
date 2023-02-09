@@ -1,0 +1,94 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+
+body {
+    font-family: 'Poppins', sans-serif;
+    user-select: none;
+}
+
+.contact-container {
+    min-width: 600px;
+    max-width: 1200px;
+    min-height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+
+.contact-title {
+    text-transform: uppercase;
+    letter-spacing: 1.1;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    
+}
+
+.grid-row {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 1fr;
+    align-items: center;
+    border-bottom: 1px dashed #000;
+}
+
+.icon {
+    cursor: pointer;
+    color: darkred;
+}
+
+.contact-connected {
+    color: rgb(16, 137, 80);
+    cursor: pointer;
+}
+
+.contact-disconnected {
+    color: darkred;
+    cursor: pointer;
+
+}
+
+.contact-subtitle {
+    border-bottom: 1px dashed #000;
+    padding-bottom: 30px;
+}
+
+.contact-form {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact-form-inputs {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.input {
+    max-width: 600px;
+    margin-left: 20%;
+    font-family: 'Poppins';
+    outline: none;
+    border: 1px solid rgb(2, 44, 44);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+button {
+    position: absolute;
+    bottom: 0;
+    right: 10%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 'Poppins';
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(12, 41, 41);
+    color: white;
+}
